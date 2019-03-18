@@ -1,0 +1,32 @@
+{
+  "name": "zumpay-postback-worker",
+  "version": "1.2.1",
+  "description": "ZumPay Postback Worker",
+  "main": "index.js",
+  "scripts": {
+    "test": "standard",
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zumpay-io/zumpay-postback-worker.git"
+  },
+  "keywords": [
+    "ZumPay"
+  ],
+  "author": "ZumCoin Developers <devs@zumcoin.org>",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/zumpay-io/zumpay-postback-worker/issues"
+  },
+  "homepage": "https://github.com/zumpay-io/zumpay-postback-worker#readme",
+  "devDependencies": {
+    "standard": "^12.0.1"
+  },
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "pem": "^1.13.2",
+    "request": "^2.88.0",
+    "request-promise-native": "^1.0.5"
+  }
+}
